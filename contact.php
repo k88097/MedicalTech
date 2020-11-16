@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="page-heading">
-                    <h1>Contact Me</h1>
+                    <h1>聯絡我們</h1>
                     <span class="subheading">Have questions? I have answers.</span>
                 </div>
             </div>
@@ -39,47 +39,50 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as
-                possible!</p>
+            <p class="contact">填寫以下表單之後，系統會自動將訊息寄到相關單位，我們會盡快與您聯繫！</p>
             <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
             <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
             <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
-                        <label>Name</label>
-                        <input type="text" class="form-control" placeholder="Name" id="name" required
-                               data-validation-required-message="Please enter your name.">
+                        <label>姓名</label>
+                        <label for="name"></label><input type="text" class="form-control" placeholder="姓名" id="name"
+                                                         required
+                                                         data-validation-required-message="請輸入您的姓名。">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
-                        <label>Email Address</label>
-                        <input type="email" class="form-control" placeholder="Email Address" id="email" required
-                               data-validation-required-message="Please enter your email address.">
+                        <label>聯絡信箱</label>
+                        <label for="email"></label><input type="email" class="form-control" placeholder="聯絡信箱"
+                                                          id="email" required
+                                                          data-validation-required-message="請輸入您的電子郵件。">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>Phone Number</label>
-                        <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required
-                               data-validation-required-message="Please enter your phone number.">
+                        <label>連絡電話</label>
+                        <label for="phone"></label><input type="tel" class="form-control" placeholder="連絡電話" id="phone"
+                                                          required
+                                                          data-validation-required-message="請輸入您的連絡電話。">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
-                        <label>Message</label>
-                        <textarea rows="5" class="form-control" placeholder="Message" id="message" required
-                                  data-validation-required-message="Please enter a message."></textarea>
+                        <label>訊息內容</label>
+                        <label for="message"></label><textarea rows="5" class="form-control" placeholder="訊息內容"
+                                                               id="message" required
+                                                               data-validation-required-message="請輸入您的訊息內容。"></textarea>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <br>
                 <div id="success"></div>
-                <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+                <button type="submit" class="btn btn-primary" id="sendMessageButton">傳送</button>
             </form>
         </div>
     </div>

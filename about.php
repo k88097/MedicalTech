@@ -28,7 +28,7 @@
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="page-heading">
                     <h1>關於我們</h1>
-                    <span class="subheading">This is what I do.</span>
+                    <span class="subheading">我們的歷史</span>
                 </div>
             </div>
         </div>

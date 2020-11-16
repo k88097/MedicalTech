@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+p.contact {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+ul.list-unstyled > li > a {
+    font-size: 14px;
+}
+
+footer > ul > li > a {
+    font-size: 12px;
+}
