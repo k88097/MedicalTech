@@ -39,15 +39,13 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates
-                odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus
-                consectetur?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque
-                architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in
-                officia voluptas voluptatibus, minus!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex
-                itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit
-                tempora!</p>
+            <p>
+                從整合工廠、代工廠、原料供貨廠商及資源 (包含信息、人才以及資金)，及創建BME Institute形成一個獨立完整生態的系統；並用Biomedical Engineering(BME)
+                Institute模式投資全球各大知名學府，透過產、學、研、官商業模式，與各大機構合作不斷地發展創新全球專利醫療耗材，並投資人才成為世界知名一流企業家。
+            </p>
+            <p>
+                未來10年希望能深耕台灣，結合全球公認的醫療島與科技島，將台灣昇華為醫療科技島，並以自有的營利商業模式，打造一個全球共享共贏的平台。為全球人類的健康盡一份力，以高新醫療器材提升人類的醫療技術。
+            </p>
         </div>
     </div>
 </div>
@@ -58,11 +56,7 @@
 <?php include_once("footer.html") ?>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/clean-blog.min.js"></script>
+<?php include "bootstrap.html" ?>
 
 </body>
 

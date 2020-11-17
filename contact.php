@@ -47,36 +47,40 @@
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
                         <label>姓名</label>
-                        <label for="name"></label><input type="text" class="form-control" placeholder="姓名" id="name"
-                                                         required
-                                                         data-validation-required-message="請輸入您的姓名。">
+                        <label for="name"></label>
+                        <input type="text" class="form-control" placeholder="姓名" id="name"
+                               required
+                               data-validation-required-message="請輸入您的姓名。">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
                         <label>聯絡信箱</label>
-                        <label for="email"></label><input type="email" class="form-control" placeholder="聯絡信箱"
-                                                          id="email" required
-                                                          data-validation-required-message="請輸入您的電子郵件。">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" placeholder="聯絡信箱"
+                               id="email" required
+                               data-validation-required-message="請輸入您的電子郵件。">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>連絡電話</label>
-                        <label for="phone"></label><input type="tel" class="form-control" placeholder="連絡電話" id="phone"
-                                                          required
-                                                          data-validation-required-message="請輸入您的連絡電話。">
+                        <label for="phone"></label>
+                        <input type="tel" class="form-control" placeholder="連絡電話" id="phone"
+                               required
+                               data-validation-required-message="請輸入您的連絡電話。">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
                         <label>訊息內容</label>
-                        <label for="message"></label><textarea rows="5" class="form-control" placeholder="訊息內容"
-                                                               id="message" required
-                                                               data-validation-required-message="請輸入您的訊息內容。"></textarea>
+                        <label for="message"></label>
+                        <textarea rows="5" class="form-control" placeholder="訊息內容"
+                                  id="message" required
+                                  data-validation-required-message="請輸入您的訊息內容。"></textarea>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
@@ -94,15 +98,11 @@
 <?php include_once("footer.html") ?>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<?php include "bootstrap.html" ?>
 
 <!-- Contact Form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>
 <script src="js/contact_me.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/clean-blog.min.js"></script>
 
 </body>
 

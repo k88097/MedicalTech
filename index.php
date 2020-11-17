@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,14 +10,14 @@
     <title>祥龍國際</title>
 
     <!--  import css, js-->
-    <?php include_once("head.html") ?>
+    <?php include "head.html" ?>
 
 </head>
 
 <body>
 
 <!-- Navigation -->
-<?php include_once("nav.html") ?>
+<?php include "nav.html" ?>
 
 <!-- Page Header -->
 <header class="masthead" style="background-image: url('img/home-bg.jpg')">
@@ -42,7 +41,7 @@
             <div class="post-preview">
                 <a href="post.html">
                     <h2 class="post-title">
-                        Man must explore, and this is exploration at its greatest
+                        20位隱形冠軍
                     </h2>
                     <h3 class="post-subtitle">
                         Problems look mighty small from 150 miles up
@@ -56,7 +55,7 @@
             <div class="post-preview">
                 <a href="post.html">
                     <h2 class="post-title">
-                        I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                        100位創新創業家
                     </h2>
                 </a>
                 <p class="post-meta">Posted by
@@ -103,14 +102,10 @@
 <hr>
 
 <!-- Footer -->
-<?php include_once("footer.html") ?>
+<?php include "footer.html" ?>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/clean-blog.min.js"></script>
+<?php include "bootstrap.html" ?>
 
 </body>
 
